@@ -1,0 +1,21 @@
+#rla-wrap{width:100%;display:block; background: #ff;margin:5% auto;font-family: syncopate, arial, san serif}
+#rla-logo {height:300px; width:300px;  margin: 0 auto; position:relative;font-weight:700;color:#fff}
+
+.rla-circle{display:block; opacity:.85; width:56%; height:56%; position:absolute; text-align:center; border-radius:50%}
+.rla-circle:hover{opacity:1}
+
+#rla-read {background: #033874; left:0;z-index:10}
+#rla-learn {background: #66CAFF; right:0;z-index:30}
+#rla-adapt {background: #70B84A; left:22%; bottom:0; z-index:50; margin:.1em auto;}
+
+#rla-name{display:block; text-align:center;font-weight:400;color:#333}
+#rla-name span{display:block;margin-bottom:5px}
+#rla-tagline{font-family:arial, san serif;font-size:17px;margin-bottom:15px}
+#rla-copy{color:#333;font-family:arial, san serif;width:500px;margin:0 auto;font-size:18px;line-height:24px}
+
+.superscript{font-size:12px;line-height:14px;vertical-align:top}
+.superscript-list{line-height:17px;list-style-type:none;-webkit-padding-start: 0;margin:35px 0 0 0;}
+
+#rla-join{text-align:center; font-family:arial, san serif; margin-top: 3rem}
+#rla-join a{color:#fff; text-decoration: none; font-size:20px;background-color:#333; border-radius:10px; padding:15px 40px; border:none}
+#rla-join a:hover{background-color:#70B84A; cursor:pointer}

@@ -1,0 +1,97 @@
+body {
+    font-size:20px;
+    color: #fff;
+    text-align:center;
+    background:#;
+}
+
+.logo-wrap{
+	font-family: syncopate, arial, san serif;
+	width:50%;
+	margin-top: 2%;
+	margin-left: 25%;
+	padding-bottom : 50%;
+	background-color: #fff;
+	position: relative;
+}
+
+.name-wrap{
+	font-family: syncopate, arial, san serif;
+	width:50%;
+	margin-left: 25%;
+	color: #000;
+	background-color: #fff;
+	font-size: 3.9vw;
+	text-transform: uppercase
+}
+
+.tag-wrap{
+	font-family: arial, san serif;
+	width:50%;
+	margin-left: 25%;
+	color: #000;
+	background-color: #fff;
+	font-size: 2.0vw;
+	margin-top:.5%
+}
+
+.rla-read{
+	color: #033874;
+}
+
+.rla-learn{
+	color: #66CAFF;
+}
+
+.rla-adapt{
+	color: #70B84A;
+}
+
+
+.square {
+	display: inline-block;
+    position: absolute;
+	font-size: 18vw;
+	line-height: 29vw;
+	font-weight: 700;
+    width: 55%;
+    padding-bottom : 55%; /* = width for a 1:1 aspect ratio */
+    background-color: #fff;
+    overflow:hidden;
+	border-radius: 50%;
+	opacity: .85
+}
+
+.square:hover{
+	opacity: 1
+}
+
+.content {
+    position:absolute;
+    height:100%; /* = 100% - 2*5% padding */
+    width: 100%; /* = 100% - 2*5% padding */
+}
+
+#rla-read{
+	top:0;
+	left:0;
+	background-color: #033874;
+	z-index: 10;
+	
+}
+
+#rla-learn{
+	top:0;
+	right:0;
+	background-color: #66CAFF;
+	z-index: 30;
+	
+}
+
+#rla-adapt{
+	top:40%;
+	background-color: #70B84A;
+	z-index: 50;
+	left: 22.5%;
+	
+}
